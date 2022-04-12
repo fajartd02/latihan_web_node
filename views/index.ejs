@@ -1,0 +1,16 @@
+<%- include('./header.ejs') %>
+<body>
+    <% for(let i = 0; i < person.people.length; i++)  {%>
+        <h1><%= person.people[i] %></h1>
+    <% } %>
+
+    <form action="/" method="POST">
+        <label>Username</label>
+        <input type="text" name="username">
+        <button type="submit">Log in</button>
+    </form>
+
+    <img src="img/alvian.jpg">
+</body>
+
+<%- include('./footer.ejs') %>

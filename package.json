@@ -1,0 +1,19 @@
+{
+  "name": "node-js-dan-express---pertemuan-3",
+  "version": "1.0.0",
+  "description": "llearning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Fajar M. Hamka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "luxon": "^2.3.1"
+  }
+}
